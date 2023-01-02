@@ -7,7 +7,7 @@ alert(56 + 3123);
 // ES5
 var age = '25'; //Variable
 age = "26"; // Reassign
-console.log(age);
+console.log(age);``
 
 // ES6
 let firstName = "UDAY";
