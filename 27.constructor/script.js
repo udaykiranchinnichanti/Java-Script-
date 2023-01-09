@@ -51,6 +51,5 @@ let person1 = new User("Anwar", "2001-05-14");
 // }}
 console.log(person1.name, "Name");
 console.log(person1.getMyAge(), "Constructor age");
-
 // In constructor, the values are called as Property other than function
 // In constructor, the functions are called as Methods
