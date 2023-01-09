@@ -1,0 +1,27 @@
+// Build in objects
+ //Array
+
+ let arr = Array.from("ABC");
+ let arrFill = Array(10).fill();
+ 
+ let exampleArray = [1,2, 3, 4]
+ exampleArray.fill(4, 3, 10)
+ console.log(exampleArray)
+ 
+ // Iteration
+ 
+ let buttonHtml = '';
+ 
+ let numberButtons = arrFill.map((item, index) => buttonHtml += `<button class="buttonHtml">${index}</button>`)
+ document.getElementById('numbers').innerHTML = buttonHtml
+ 
+ // let fname = "Anwar"
+ // let fname = new String("Anwar").
+ 
+ // Important objects
+ 
+ // Array
+ // Object
+ // String
+ // Math
+ // Date
